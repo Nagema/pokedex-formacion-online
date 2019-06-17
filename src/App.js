@@ -31,7 +31,6 @@ class App extends React.Component {
 
       });
   }
-
   handleFilterPokemon(event) {
     const filterPokemon = event.currentTarget.value;
     this.setState({
